@@ -9,7 +9,6 @@ http://localhost:8000/exchange/{amount}/{from}/{to}/{rate}
 http://localhost:8000/exchange/10/BRL/USD/4.50
 
 TODO: gerar modelo para não passar muitos parâmetros
-TODO: desenvolver testes
 TODO: consumir dados de uma api pública para apresentar dados em tempo real
 """
 
