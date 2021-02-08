@@ -1,0 +1,17 @@
+on: push
+name: test
+jobs:
+  install-test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: install dependencies
+      uses: VaultVulp/action-pipenv@v2.0.1
+      with:
+        command: install -d
+
+    - name: test
+      uses: VaultVulp/action-pipenv@v2.0.1
+      with:
+        command: run test
