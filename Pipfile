@@ -5,8 +5,10 @@ verify_ssl = true
 
 [packages]
 fastapi = "*"
+pylint = "*"
 pytest = "*"
 uvicorn = "*"
+requests = "*"
 
 [dev-packages]
 autopep8 = "*"
@@ -15,4 +17,5 @@ autopep8 = "*"
 python_version = "3.7"
 
 [scripts]
+lint = "pylint ./currency_conversion"
 test = "pytest"

@@ -1,4 +1,4 @@
-from conversion import conversion
+from conversion import conversion  # type: ignore
 
 
 def test_real_dollar():
