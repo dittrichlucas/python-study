@@ -14,6 +14,8 @@
 - [api de meteorologia](https://github.com/somarmeteorologia/challenge/tree/master/backend)
 - [diversos](https://www.thinkful.com/projects/backend-technical-challenges-621/)
 
+https://hackr.io/blog/python-projects
+https://www.dataquest.io/blog/python-projects-for-beginners/
 
 ### TODOs
 
